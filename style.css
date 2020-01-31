@@ -12,7 +12,7 @@ header {
 
 .headerItem {
   grid-row: 1;
-  background-color: #ccc;
+  background-color: #989797;
   height: 200px;
   text-align: center;
   font-size: 2rem;
@@ -28,6 +28,7 @@ header {
   grid-gap: 3px;
   text-align: center;
   font-size: 2.5rem;
+  margin-top: 3px;
 }
 
 .article-box {
@@ -35,6 +36,17 @@ header {
   flex-flow: column;
   justify-content: center;
   background-color: #6e6e6e;
+}
+.article-box-title {
+  font-size: 2.5rem;
+  margin: 0 50px;
+  text-align: left;
+}
+.article-box-author {
+  font-size: 1.5rem;
+  margin-left: 50px;
+  margin-bottom: 35px;
+  text-align: left;
 }
 
 .latest-posts-publicity {
@@ -46,13 +58,74 @@ header {
 }
 
 .post-box {
-  background-color: blue;
+  background-color: #fff;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: left;
+  height: 650px;
+}
+.post-box-date {
+  font-size: 0.75rem;
+  font-weight: 100;  
+}
+.post-box-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 0;
+}
+.post-box-paragraph {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.post-box-author {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .publicty-box {
-  background-color: blueviolet;
+  background-color: #8a8a8a;
   grid-column: span 2;
+  margin: 25px;
+  border-radius: 15px;
 }
+.publicity-image {
+ margin: 15px auto;
+}
+.publicty-box-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 20px auto;
+}
+.publicty-box-description {
+  font-size: 1.5rem;
+  font-weight: 100; 
+}
+.publicty-box-button {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  width: 175px;
+  height: 20px;
+  margin: 30px auto 0px auto;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  background: #ccc;
+  color: #000
+}
+.publicty-box-create-account {
+  font-size: 1.1rem;
+  font-weight: 100; 
+}
+.publicty-box-create-account > a {
+  color: #000;
+}
+
+
 
 .just-released-box {
   width: 100%;
@@ -91,4 +164,23 @@ header {
 
 .curated-post-box {
   background-color: palevioletred;
+}
+
+.newsletter-container {
+  width: 100%;
+}
+.newsletter-box {
+  height: 800px;
+  background-color: darkcyan;
+  margin: 60px;
+}
+.splitter-See-Articles {
+  margin: 60px;
+  background-color: greenyellow;
+}
+
+.footerContainer {
+  background-color: gray;
+  height: 800px;
+  width: 100%;
 }
