@@ -1,0 +1,16 @@
+body {
+    font-family: "Roboto";
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.headerItem {
+    grid-row: 1;
+    grid-gap: 2px;
+    background-color: #ccc;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
