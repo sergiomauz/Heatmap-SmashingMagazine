@@ -125,12 +125,46 @@ header {
   color: #000;
 }
 
-
-
 .just-released-box {
   width: 100%;
   height: 600px;
-  background-color: cornflowerblue;
+  background-color: #bababa;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.just-release-header {
+  font-size: 1.3rem;
+  margin: 40px 0 20px 0;
+}
+
+.just-release-title {
+  font-size: 2.8rem;
+  margin: 20px 30%;
+}
+
+.just-release-description {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin: 20px 30%;
+}
+
+.just-release-button {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  width: 220px;
+  height: 20px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  background: #ccc;
+  color: #000
 }
 
 .community-links-box {
