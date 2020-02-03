@@ -289,6 +289,32 @@ header {
 
 .footer-container {
   background-color: gray;
-  height: 800px;
+  height: 400px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-container ul {
+ font-size: 1.6rem;
+}
+
+.footer-container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: 1.6em;
+    font-size: 1.6rem;
+    padding-right: 30px;
 }
