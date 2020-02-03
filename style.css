@@ -96,7 +96,8 @@ header {
   border-radius: 15px;
 }
 
-.publicity-image {
+.publicity-image,
+.release-image {
   margin: 15px auto;
 }
 
@@ -184,21 +185,57 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px;
   grid-gap: 3px;
+  font-size: 1.4rem;
+  font-weight: lighter;
 }
 
 .first-community-link {
   grid-column: span 2;
-  background-color: orange;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
 }
 
 .community-link {
-  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;;
+}
+
+.img-links {
+  padding: 20px;
+}
+
+.text-links {
+  padding: 20px;
 }
 
 .featured-smashed-box {
   width: 100%;
-  height: 300px;
-  background-color: cornflowerblue;
+  height: 600px;
+  background-color: #6e6e6e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.featured-box-button {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  width: 175px;
+  height: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 22px;
+  text-decoration: none;
+  text-align: center;
+  background: #ccc;
+  color: #000;
 }
 
 .curated-posts {
