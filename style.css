@@ -246,7 +246,22 @@ header {
 }
 
 .curated-post-box {
-  background-color: palevioletred;
+  padding: 40px;
+  background-color: #fafafa;
+}
+
+.curated-box-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.curated-link {
+    color: #000;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    line-height: 1.6;
 }
 
 .newsletter-container {
