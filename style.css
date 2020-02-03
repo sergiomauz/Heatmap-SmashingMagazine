@@ -199,7 +199,7 @@ header {
 .community-link {
   display: flex;
   flex-direction: row;
-  background-color: #fafafa;;
+  background-color: #fafafa;
 }
 
 .img-links {
@@ -251,17 +251,17 @@ header {
 }
 
 .curated-box-title {
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    margin-top: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 0;
 }
 
 .curated-link {
-    color: #000;
-    font-size: 1.8rem;
-    text-decoration: underline;
-    line-height: 1.6em;
+  color: #000;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  line-height: 1.6em;
 }
 
 .newsletter-container {
@@ -298,23 +298,20 @@ header {
 }
 
 .footer-container ul {
- font-size: 1.6rem;
-}
-
-.footer-container ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    line-height: 1.6;
-    text-align: center;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .footer-container ul li a {
-    text-decoration: none;
-    color: #000;
-    text-align: 1.6em;
-    font-size: 1.6rem;
-    padding-right: 30px;
+  text-decoration: none;
+  color: #000;
+  text-align: 1.6em;
+  font-size: 1.6rem;
+  padding-right: 30px;
 }
