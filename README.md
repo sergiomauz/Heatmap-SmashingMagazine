@@ -28,6 +28,7 @@ Sergio Mauricio Zambrano.
 - Linkedin: [@sergiomauz](https://www.linkedin.com/in/sergiomauz)
 
 
-Selene Flores Perez
-- Github: [@sergiomauz](https://github.com/enelesmai)
-- Twitter: [@sergiomauz](https://twitter.com/enelesmai)
+Xóchitl Selene Flores Pérez
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [@xochitlselene](https://www.linkedin.com/in/xochitlselene)
