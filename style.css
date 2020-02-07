@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
+  background: #efefef;
 }
 
 .headerContainer {
@@ -69,10 +70,11 @@ body {
   text-align: center;
   font-size: 2.5rem;
   grid-gap: 3px;
+  background-color: #cdcdcd;
 }
 
 .post-box {
-  background-color: #fff;
+  background-color: #ededed;
   padding-left: 45px;
   padding-right: 45px;
   text-align: left;
@@ -206,7 +208,7 @@ body {
 
 .first-community-link {
   grid-column: span 2;
-  background-color: #fafafa;
+  background-color: #dfdfdf;
   display: flex;
   flex-direction: row;
 }
@@ -214,7 +216,7 @@ body {
 .community-link {
   display: flex;
   flex-direction: row;
-  background-color: #fafafa;
+  background-color: #eaeaea;
 }
 
 .img-links {
