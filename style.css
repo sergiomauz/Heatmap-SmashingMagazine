@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
+  background: #efefef;
 }
 
 .headerContainer {
@@ -69,10 +70,11 @@ body {
   text-align: center;
   font-size: 2.5rem;
   grid-gap: 3px;
+  background-color: #cdcdcd;
 }
 
 .post-box {
-  background-color: #fff;
+  background-color: #ededed;
   padding-left: 45px;
   padding-right: 45px;
   text-align: left;
@@ -112,13 +114,10 @@ body {
   margin: 15px auto;
 }
 
-.release-image-out {
-  margin: -125px auto 10px auto;
-}
-
 .featured-smashed-box-margin {
   margin-left: 50px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .publicty-box-title {
@@ -202,7 +201,6 @@ body {
 .community-links-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 250px;
   grid-gap: 3px;
   font-size: 1.4rem;
   font-weight: lighter;
@@ -210,7 +208,7 @@ body {
 
 .first-community-link {
   grid-column: span 2;
-  background-color: #fafafa;
+  background-color: #dfdfdf;
   display: flex;
   flex-direction: row;
 }
@@ -218,7 +216,7 @@ body {
 .community-link {
   display: flex;
   flex-direction: row;
-  background-color: #fafafa;
+  background-color: #eaeaea;
 }
 
 .img-links {
@@ -304,7 +302,7 @@ body {
 }
 
 .splitter-see-articles {
-  margin: 60px 60px 180px 60px;
+  margin: 60px 60px 60px 60px;
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
